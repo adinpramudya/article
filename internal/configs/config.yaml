@@ -1,0 +1,5 @@
+service:
+  port: ":9876"
+
+database:
+  dataSourceName: "frappe:frappe123@tcp(127.0.0.1:3306)/article?charset=utf8mb4&parseTime=True&loc=Local"
